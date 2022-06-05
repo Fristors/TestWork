@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServer", "WCFServer\WCFServer.csproj", "{3757DD8E-CFAA-4486-8037-7A3051C94A46}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6828B07-81F0-4625-B4C1-22355E30BE4E} = {E6828B07-81F0-4625-B4C1-22355E30BE4E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{E6828B07-81F0-4625-B4C1-22355E30BE4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3757DD8E-CFAA-4486-8037-7A3051C94A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3757DD8E-CFAA-4486-8037-7A3051C94A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3757DD8E-CFAA-4486-8037-7A3051C94A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3757DD8E-CFAA-4486-8037-7A3051C94A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6828B07-81F0-4625-B4C1-22355E30BE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6828B07-81F0-4625-B4C1-22355E30BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6828B07-81F0-4625-B4C1-22355E30BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6828B07-81F0-4625-B4C1-22355E30BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E21B51C9-061D-4842-BE75-464E00356434}
+	EndGlobalSection
+EndGlobal

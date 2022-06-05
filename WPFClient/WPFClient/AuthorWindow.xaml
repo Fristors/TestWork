@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFClient.AuthorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClient"
+        mc:Ignorable="d"
+        Title="AuthorWindow" Height="300" Width="200" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100">
+            <TextBlock Text="Логин"/>
+            <TextBox x:Name="Login"/>
+            <TextBlock Text="Пароль"/>
+            <TextBox x:Name="Password"/>
+            <Button Click="Button_Click" Content="Войти"/>
+        </StackPanel>
+    </Grid>
+</Window>

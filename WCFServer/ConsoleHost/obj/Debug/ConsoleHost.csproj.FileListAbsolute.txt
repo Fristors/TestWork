@@ -1,0 +1,16 @@
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\obj\Debug\ConsoleHost.csproj.AssemblyReference.cache
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\obj\Debug\ConsoleHost.csproj.SuggestedBindingRedirects.cache
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\obj\Debug\ConsoleHost.csproj.CoreCompileInputs.cache
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\EntityFramework.dll
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\WCFServer.dll
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\EntityFramework.xml
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\WCFServer.pdb
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\bin\Debug\WCFServer.dll.config
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\obj\Debug\ConsoleHost.csproj.CopyComplete
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\obj\Debug\ConsoleHost.exe
+C:\Users\artem\Desktop\WCFServer\ConsoleHost\obj\Debug\ConsoleHost.pdb

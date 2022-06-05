@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPFClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" QueryCursor="Window_QueryCursor" MouseDown="Window_MouseDown" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <TextBlock Text="Событие"/>
+            <ComboBox x:Name="EventCB" Width="100" SelectionChanged="EventCB_SelectionChanged"/>
+        </StackPanel>
+        <Button x:Name="Btn" Grid.Row="0" Content="Старт" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="5 0" FontSize="16" FontFamily="Times New Roman" Click="Btn_Click"/>
+        <DataGrid
+                x:Name="GridList"
+                VerticalScrollBarVisibility="Auto"
+                AutoGenerateColumns="False"
+                HorizontalAlignment="Left"
+                FontSize="10" IsReadOnly="True"
+                Margin="5"
+                Grid.Row="1">
+            <DataGrid.Columns>
+                    <DataGridTextColumn 
+                        Width="35" 
+                        Binding="{Binding XPos}"
+                        Header="X"/>
+                    <DataGridTextColumn 
+                        Width="*" 
+                        Binding="{Binding YPos}"
+                        Header="Y"/>
+                    <DataGridTextColumn 
+                        Width="*" 
+                        Binding="{Binding TypeEvent}"
+                        Header="Тип"/>
+                    <DataGridTextColumn 
+                        Width="*" 
+                        Binding="{Binding DateTime}"
+                        Header="Время"/>
+                </DataGrid.Columns>
+            </DataGrid>
+    </Grid>
+</Window>
